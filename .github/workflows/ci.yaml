@@ -24,9 +24,9 @@ jobs:
         with: { modules-to-cache: "BuildHelpers, Pester", shell: "${{ matrix.shell }}" }
       - name: Run Scoop's bucket tests
         run: |
-          $env:SCOOP_HOME = Convert-Path '.\scoop'
+          $env:SCOOP_HOME = Convert-Path (Join-Path $PWD 'scoop')
           $config = New-PesterConfiguration -Hashtable @{
-            Run    = @{ Path = '.\scoop-bucket'; PassThru = $true }
+            Run    = @{ Path = (Join-Path $PWD 'scoop-bucket'); PassThru = $true }
             Output = @{ Verbosity = 'Detailed' }
           }
           $result = Invoke-Pester -Configuration $config

@@ -1,0 +1,31 @@
+{
+    "$schema": "https://dprint.dev/schemas/v0.json",
+    // Scoop's bucket tests reject tabs in leading whitespace, and GoReleaser writes
+    // manifests with four spaces. .gitattributes checks text out as CRLF.
+    "useTabs": false,
+    "indentWidth": 4,
+    "newLineKind": "crlf",
+    "pwsh": {
+        "braceStyle": "sameLine",
+        "keywordCasing": true,
+        "spaceAroundOperator": true,
+        "spaceAroundPipe": true,
+        "spaceAfterSeparator": true
+    },
+    "json": {},
+    "markdown": {
+        "emphasisKind": "asterisks",
+        "lineWidth": 100,
+        "textWrap": "maintain"
+    },
+    "yaml": {
+        "indentWidth": 2,
+        "printWidth": 160
+    },
+    "plugins": [
+        "https://plugins.dprint.dev/kjanat/pwsh-0.2.0.wasm",
+        "npm:@dprint/json@0.23.0",
+        "npm:@dprint/markdown@0.23.3",
+        "npm:dprint-plugin-yaml@0.6.0"
+    ]
+}
