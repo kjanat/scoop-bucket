@@ -1,0 +1,29 @@
+{
+    "version": "1.13.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/kjanat/actionlint/releases/download/v1.13.0/actionlint_1.13.0_windows_386.zip",
+            "bin": [
+                "actionlint.exe"
+            ],
+            "hash": "75ac66c02b47ce20c2ea780268205ae202f3883528656712db8870cf8617e3a2"
+        },
+        "64bit": {
+            "url": "https://github.com/kjanat/actionlint/releases/download/v1.13.0/actionlint_1.13.0_windows_amd64.zip",
+            "bin": [
+                "actionlint.exe"
+            ],
+            "hash": "3338dfe4e1ba5d9b1230f5efd2d7e08c3393de9537b575fb011739efd011aa17"
+        },
+        "arm64": {
+            "url": "https://github.com/kjanat/actionlint/releases/download/v1.13.0/actionlint_1.13.0_windows_arm64.zip",
+            "bin": [
+                "actionlint.exe"
+            ],
+            "hash": "8aa62e7d3ff70cdc3f593a3062d5aa495f37d2e01b2b6b3f086c0c8e3a7f3398"
+        }
+    },
+    "homepage": "https://actionlint.kjanat.dev",
+    "license": "MIT",
+    "description": "Static checker for GitHub Actions workflow files"
+}

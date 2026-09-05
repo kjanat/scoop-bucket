@@ -1,0 +1,3 @@
+# Scoop is Windows-only, so text files are checked out with CRLF; the repository
+# stores LF. Scoop's own bucket tests require CRLF in the working tree.
+* text=auto eol=crlf
