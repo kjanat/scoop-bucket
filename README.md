@@ -32,7 +32,7 @@ actionlint -completion powershell | Out-String | Invoke-Expression
 ## How manifests get here
 
 Each release pipeline writes its manifest with [GoReleaser][goreleaser] and commits it
-to this repository, so manifests track releases without a checkver or autoupdate step.
+to `bucket/`, so manifests track releases without a checkver or autoupdate step.
 Edits by hand are overwritten on the next release; fix the project's `.goreleaser.yaml`
 instead.
 
