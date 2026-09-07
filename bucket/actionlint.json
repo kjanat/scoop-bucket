@@ -1,26 +1,26 @@
 {
-    "version": "1.14.0",
+    "version": "1.15.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/kjanat/actionlint/releases/download/v1.14.0/actionlint_1.14.0_windows_386.zip",
+            "url": "https://github.com/kjanat/actionlint/releases/download/v1.15.0/actionlint_1.15.0_windows_386.zip",
             "bin": [
                 "actionlint.exe"
             ],
-            "hash": "895b71406fedfbd0965a9fe4dafeaa2cb7c28820f1421c104f2e94c20d1d74cf"
+            "hash": "ae57699641ebfd8e07c62d63f425ec41db1b07a375206384b7dc749d824cd51b"
         },
         "64bit": {
-            "url": "https://github.com/kjanat/actionlint/releases/download/v1.14.0/actionlint_1.14.0_windows_amd64.zip",
+            "url": "https://github.com/kjanat/actionlint/releases/download/v1.15.0/actionlint_1.15.0_windows_amd64.zip",
             "bin": [
                 "actionlint.exe"
             ],
-            "hash": "286509d927bdcf96cf245033f489d79d71d748e88e9443b63b2b40cd083e07c1"
+            "hash": "e21de2452e25bff0fcfba8e5fe62ddad6c1aecb5ff33862618d3e6f2eb1183d6"
         },
         "arm64": {
-            "url": "https://github.com/kjanat/actionlint/releases/download/v1.14.0/actionlint_1.14.0_windows_arm64.zip",
+            "url": "https://github.com/kjanat/actionlint/releases/download/v1.15.0/actionlint_1.15.0_windows_arm64.zip",
             "bin": [
                 "actionlint.exe"
             ],
-            "hash": "ee2a5476589366d42b8f3e8a91a4642eb092b50ff04199f2601f668a8c61bf39"
+            "hash": "104f973cd09d3d0f3fd6ae8e9ae965c32b2fd467044c70705413b53a18895b5f"
         }
     },
     "homepage": "https://actionlint.kjanat.dev",
